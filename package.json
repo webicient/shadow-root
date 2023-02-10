@@ -1,6 +1,6 @@
 {
   "name": "@webicient/shadow-root",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed your site via shadow root.",
   "source": "src/main.js",
   "main": "dist/main.js",

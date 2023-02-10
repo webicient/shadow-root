@@ -28,7 +28,7 @@ customElements.define(
 
             // Whenever we receive the height from iframe, update it!
             window.addEventListener('message', (message) => {
-                if (message?.data && 'wctIframeHeight' in message.data) {
+                if (message?.data?.wctIframeHeight) {
                     iframe.height = `${message.data.wctIframeHeight}`
                 }
             })
