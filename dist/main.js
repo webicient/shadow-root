@@ -1,0 +1,2 @@
+customElements.define("wct-iframe",class extends HTMLElement{constructor(){super();const e=this?.getAttribute("src");if(!e)return;const t=document.createElement("iframe");t.src=e,t.width="100%",t.height=window.innerHeight,t.frameBorder=0,t.scrolling="no",t.allow="fullscreen",window.addEventListener("message",(e=>{console.log("asgdjhasgjhda"),e?.data&&"wctIframeHeight"in e.data&&(t.height=`${e.data.wctIframeHeight}`)})),this.appendChild(t)}});
+//# sourceMappingURL=main.js.map
